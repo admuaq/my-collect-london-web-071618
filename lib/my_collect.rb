@@ -6,5 +6,5 @@ def my_collect(array)
     cont << yield(array[i])
     i += 1
   end
-  cont.uppercase
+  cont
 end 
