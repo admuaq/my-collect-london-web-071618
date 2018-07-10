@@ -4,7 +4,7 @@ def my_collect(array)
     yield array[i]
     i += 1
   end
-  array.map(:&upcase)
+  array.upcase
 end 
   
 
